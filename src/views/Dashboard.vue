@@ -225,13 +225,13 @@
                </div>
            </div>
              <div class="row mt-5 px-5">
-                   <div class="col-md-5">
+                   <div class="col-md-6">
                        <p class="paymentFont">Payments</p>
                    </div>
-                   <div class="col-md-7 text-center d-flex justify-content-between">
-                        <Button icon="pi pi-filter" class="p-button-outlined p-button-secondary text-black" label="filter" @click="greet"></Button>
+                   <div class="col-md-6 text-center d-flex justify-content-around">
+                        <Button icon="pi pi-filter" class="p-button-outlined p-button-secondary text-black d-flex justify-content-center" label="filter" @click="greet"></Button>
                         <Button icon="pi pi-arrow-up" label="Export" class="p-button-outlined p-button-secondary text-black"></Button>
-                       <Button icon="pi pi-plus" label="Create payment" class="p-button-secondary borderPurple m-0"></Button>
+                       <Button icon="pi pi-plus" label="Create payment" class="p-button-secondary borderPurple mr-0"></Button>
                        
                    </div>
                </div>
@@ -307,7 +307,7 @@
                            <div class="col-md-2 date1">
                                {{product.date}}
                            </div>
-                           <div class="col-md-1">
+                           <div class="col-md-1 d-flex justify-content-">
                                <i class="pi pi-ellipsis-h ellipse"></i>
                            </div>
                        </div>
